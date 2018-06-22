@@ -1,4 +1,4 @@
-FROM zookeeper:3.5
+FROM zookeeper:3.4.12
 
 RUN apk add --update bind-tools
 

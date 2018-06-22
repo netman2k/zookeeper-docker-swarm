@@ -1,7 +1,11 @@
 # zookeeper-docker-swarm
+### About
+It is a clone of the itsaur/zookeeper-docker-swarm.
+I created it cause I think that zookeeper 3.5 is not compatable with this configuration and 3.5 is still in beta.
+I need to use stable version in my production.
 
 ### Available Tags:
- - [3.5](https://github.com/itsaur/zookeeper-docker-swarm/blob/3.5/Dockerfile)
+ - [3.4.12](https://github.com/netman2k/zookeeper-docker-swarm/blob/3.4.12/Dockerfile)
 
 ### What is Zookeeper with Docker Swarm?
 This is an extension to the [official Zookeeper Docker image](https://store.docker.com/images/zookeeper). 
@@ -19,3 +23,5 @@ docker service create \
     -e "SERVICE_NAME=zookeeper" \
     itsaur/zookeeper-replicated
 ```
+
+
